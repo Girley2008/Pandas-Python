@@ -1,4 +1,5 @@
 import seaborn as sns
 import pandas as pd
 df = sns.load_dataset("titanic")
-print(df.head())
+tabela = pd.DataFrame(df)
+print(tabela.info())
