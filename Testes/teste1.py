@@ -1,5 +1,7 @@
 import seaborn as sns
-import pandas as pd
+import pandas as pe
 df = sns.load_dataset("titanic")
 tabela = pd.DataFrame(df)
 print(tabela.info())
+print('pi')
+print('n')
